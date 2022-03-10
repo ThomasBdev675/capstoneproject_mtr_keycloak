@@ -1,7 +1,5 @@
-setup:
-addons:
-  - plan: heroku-postgresql:hobby-dev
-    as: DATABASE_URL
 build:
-docker:
-web: dockerfile
+  docker:
+    web: dockerfile
+run:
+  web: bundle exec puma -C config/puma.rb
