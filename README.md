@@ -1,8 +1,10 @@
-# capstoneproject_mtr_keycloak
+# Deploy Keycloak to Heroku
 
-Final case repo to serve Keycloak
+This repository deploys the [Keycloak](https://www.keycloak.org) Identity and Access Manangement Solution
+to Heroku. It is based of Keycloak's official docker image with some slight modifications to use the
+Heroku variable for `PORT` and `DATABASE_URL` properly.
 
-Usage:
+The deployment will be made with a free dyno (it won't run very well in smaller dynos
+due to Java's memory hunger) with a free Postgres database attached.
 
-Important:
-Please ensure to change the default admin password.
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
