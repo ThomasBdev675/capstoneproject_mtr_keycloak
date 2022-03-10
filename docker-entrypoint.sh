@@ -1,21 +1,3 @@
-Skip to content
-mieckert
-/
-keycloak-heroku
-Public
-Code
-Issues
-1
-Pull requests
-Actions
-Projects
-More
-keycloak-heroku/docker-entrypoint.sh
-@meckert-salesforce
-meckert-salesforce added DB_VENDOR setting
- History
- 1 contributor
-Executable File  192 lines (159 sloc)  5.03 KB
 #!/bin/bash
 
 # Set database config from Heroku DATABASE_URL
