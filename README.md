@@ -8,3 +8,14 @@ The deployment will be made with a free dyno (it won't run very well in smaller 
 due to Java's memory hunger) with a free Postgres database attached.
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+---
+
+## Special thanks:
+
+A special thank you to Sannon Aragão as we forked his heroku keycloak deployment method [https://github.com/sannonaragao/keycloak-heroku](https://github.com/sannonaragao/keycloak-heroku)
+
+
+### Source code:
+
+[https://github.com/sannonaragao/keycloak-heroku](https://github.com/sannonaragao/keycloak-heroku)
